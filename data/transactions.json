@@ -1,0 +1,123 @@
+[
+    {
+        "id": "tx_001",
+        "user_id": "user_123",
+        "card_id": "card_01",
+        "amount": 142.50,
+        "currency": "RON",
+        "merchant_raw": "MEGA IMAGE 0412",
+        "status": "settled",
+        "city": "Bucuresti",
+        "timestamp": "2026-11-12T18:15:00"
+    },
+    {
+        "id": "tx_002",
+        "user_id": "user_123",
+        "card_id": "card_01",
+        "amount": 28.00,
+        "currency": "RON",
+        "merchant_raw": "BOLT.EU/O/261117",
+        "status": "settled",
+        "city": "Bucuresti",
+        "timestamp": "2026-11-13T09:10:00"
+    },
+    {
+        "id": "tx_003",
+        "user_id": "user_123",
+        "card_id": "card_01",
+        "amount": 480.00,
+        "currency": "RON",
+        "merchant_raw": "DRI*NEXTGEN",
+        "status": "settled",
+        "city": "Bucuresti",
+        "timestamp": "2026-11-14T03:12:00"
+    },
+    {
+        "id": "tx_004",
+        "user_id": "user_123",
+        "card_id": "card_01",
+        "amount": 75.00,
+        "currency": "RON",
+        "merchant_raw": "PAYPAL *STEAM",
+        "status": "settled",
+        "city": "Bucuresti",
+        "timestamp": "2026-11-15T21:40:00"
+    },
+    {
+        "id": "tx_005",
+        "user_id": "user_123",
+        "card_id": "card_01",
+        "amount": 65.00,
+        "currency": "RON",
+        "merchant_raw": "GLOVO*RO",
+        "status": "settled",
+        "city": "Bucuresti",
+        "timestamp": "2026-11-17T13:05:00"
+    },
+    {
+        "id": "tx_006",
+        "user_id": "user_123",
+        "card_id": "card_01",
+        "amount": 65.00,
+        "currency": "RON",
+        "merchant_raw": "GLOVO*RO",
+        "status": "pending",
+        "city": "Bucuresti",
+        "timestamp": "2026-11-17T13:06:00"
+    },
+    {
+        "id": "tx_007",
+        "user_id": "user_123",
+        "card_id": "card_01",
+        "amount": 89.90,
+        "currency": "RON",
+        "merchant_raw": "MEGA IMAGE 0412",
+        "status": "settled",
+        "city": "Bucuresti",
+        "timestamp": "2026-11-17T19:22:00"
+    },
+    {
+        "id": "tx_008",
+        "user_id": "user_123",
+        "card_id": "card_01",
+        "amount": 18.00,
+        "currency": "RON",
+        "merchant_raw": "5 TO GO BUCURESTI",
+        "status": "settled",
+        "city": "Bucuresti",
+        "timestamp": "2026-11-18T10:05:00"
+    },
+    {
+        "id": "tx_009",
+        "user_id": "user_123",
+        "card_id": "card_01",
+        "amount": 1500.00,
+        "currency": "RON",
+        "merchant_raw": "ATM EURONET CLUJ",
+        "status": "settled",
+        "city": "Cluj-Napoca",
+        "timestamp": "2026-11-18T10:25:00"
+    },
+    {
+        "id": "tx_010",
+        "user_id": "user_456",
+        "card_id": "card_02",
+        "amount": 320.00,
+        "currency": "RON",
+        "merchant_raw": "MEGA IMAGE 0412",
+        "status": "settled",
+        "city": "Brasov",
+        "timestamp": "2026-11-18T11:00:00"
+    },
+    {
+        "id": "tx_011",
+        "user_id": "user_456",
+        "card_id": "card_02",
+        "amount": 54.00,
+        "currency": "RON",
+        "merchant_raw": "GLOVO*RO",
+        "status": "settled",
+        "city": "Brasov",
+        "timestamp": "2026-11-18T14:30:00"
+    }
+]

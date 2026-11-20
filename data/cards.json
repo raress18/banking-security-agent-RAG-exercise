@@ -1,0 +1,16 @@
+[
+    {
+        "id": "card_01",
+        "user_id": "user_123",
+        "last4": "4821",
+        "status": "active",
+        "freeze_reason": null
+    },
+    {
+        "id": "card_02",
+        "user_id": "user_456",
+        "last4": "9910",
+        "status": "active",
+        "freeze_reason": null
+    }
+]

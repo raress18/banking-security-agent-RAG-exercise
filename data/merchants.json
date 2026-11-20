@@ -1,0 +1,51 @@
+[
+    {
+        "merchant_raw": "DRI*NEXTGEN",
+        "clean_name": "Digital River - NextGen Cloud Subscription",
+        "category": "Software & Subscriptions",
+        "risk_score": "low",
+        "notes": "Procesator oficial de plăți pentru abonamente software anuale/lunare. Frecvent confundat de clienți cu tranzacții necunoscute."
+    },
+    {
+        "merchant_raw": "GLOVO*RO",
+        "clean_name": "Glovo Romania",
+        "category": "Food Delivery",
+        "risk_score": "low",
+        "notes": "Platformă legitimă de livrare. Pre-autorizările dublate se anulează automat în 24-48h."
+    },
+    {
+        "merchant_raw": "5 TO GO BUCURESTI",
+        "clean_name": "5 to go",
+        "category": "Cafenele & Restaurante",
+        "risk_score": "low",
+        "notes": "Comerciant local verificat."
+    },
+    {
+        "merchant_raw": "MEGA IMAGE 0412",
+        "clean_name": "Mega Image",
+        "category": "Supermarket",
+        "risk_score": "low",
+        "notes": "Lanț de supermarketuri verificat."
+    },
+    {
+        "merchant_raw": "BOLT.EU/O/261117",
+        "clean_name": "Bolt Rides",
+        "category": "Transport",
+        "risk_score": "low",
+        "notes": "Serviciu de ride-hailing verificat."
+    },
+    {
+        "merchant_raw": "PAYPAL *STEAM",
+        "clean_name": "Steam Games (via PayPal)",
+        "category": "Gaming & Entertainment",
+        "risk_score": "low",
+        "notes": "Achiziție digitală prin PayPal."
+    },
+    {
+        "merchant_raw": "ATM EURONET CLUJ",
+        "clean_name": "Euronet ATM Cluj-Napoca",
+        "category": "Retragere Numerar",
+        "risk_score": "high",
+        "notes": "Terminal ATM cu rată ridicată de raportări pentru clonare / utilizare neautorizată a cardurilor."
+    }
+]
