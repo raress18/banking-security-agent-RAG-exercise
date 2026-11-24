@@ -1,0 +1,9 @@
+POLITICA 1 - FRAUDA LA ATM SI CLONARE CARD (SKIMMING): In cazul retragerilor neautorizate de la bancomat sau al suspiciunii de clonare a cardului, clientul trebuie sa blocheze imediat cardul. Banca ramburseaza suma fraudata in termen de maximum 10 zile lucratoare de la deschiderea disputei, cu conditia ca tranzactia sa aiba statusul "completed" si clientul sa nu fi divulgat codul PIN.
+
+POLITICA 2 - TRANZACTII IN ASTEPTARE (PENDING): Tranzactiile cu status "pending" reprezinta doar autorizari temporare blocate in sold, nu decontari finale. Conform regulamentului bancar, o tranzactie pending nu poate fi disputata prin chargeback; clientul trebuie sa astepte 48-72 de ore pana cand tranzactia fie se deconteaza ("completed"), fie se anuleaza automat.
+
+POLITICA 3 - PRAGURI DE CONFIRMARE SI RASPUNDEREA CLIENTULUI: Pentru orice disputa (chargeback) cu o valoare mai mare de 500 RON, sistemul impune confirmarea explicita a titularului inainte de inregistrarea dosarului. Pentru tranzactiile raportate in primele 24 de ore de la producere, raspunderea financiara a clientului este 0 RON.
+
+POLITICA 4 - EMITERE SI INLOCUIRE CARD BLOCAT: Reemiterea unui card fizic blocat din motive de securitate sau frauda confirmata este gratuita (0 RON). Noul card se livreaza prin curier la adresa din contract in 3-5 zile lucratoare, iar varianta virtuala devine activa instant in aplicatia mobila.
+
+POLITICA 5 - PLATI ONLINE RECURENTE SI ABONAMENTE: Daca un comerciant online debiteaza recurent un card fara acordul actual al clientului, simpla blocare a cardului nu opreste intotdeauna autorizarile pe token-uri existente. Este obligatorie deschiderea unei dispute pentru fiecare tranzactie neautorizata si solicitarea revocarii token-ului de plata.

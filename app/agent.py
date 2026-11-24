@@ -87,7 +87,12 @@ def run_agent(request: ChatRequest) -> ChatResponse:
                 )
             )
 
-    history.append(types.Content(role="user", parts=response_parts))
+        history.append(
+            types.Content(
+                role="user", 
+                parts=response_parts
+            )
+        )
 
     return ChatResponse(
         reply="Limita maxima de pasi ai agentului a fost atinsa.",

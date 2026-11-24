@@ -1,5 +1,8 @@
 from typing import Callable
 from app.store import store
+from app.rag import PolicyRAG
+
+policy_rag = PolicyRAG()
 
 
 def build_tools_for_user(user_id: str) -> list[Callable]:
@@ -80,4 +83,25 @@ def build_tools_for_user(user_id: str) -> list[Callable]:
         store.add_dispute(dispute)
         return {"status": "dispute_created", "dispute": dispute}
 
-    return [get_transactions, check_merchant_reputation, freeze_card, create_dispute]  # adaugă aici și celelalte 3 funcții
+    def search_bank_policy(query: str) -> dict:
+        """Cauta in regulamentul oficial al bancii informatii despre proceduri de frauda,
+        termene de rambursare, reguli pentru tranzactii pending, taxe de reemitere card
+        sau praguri de confirmare. Foloseste acest tool cand clientul intreaba reguli,
+        termene sau proceduri bancare.
+
+        Args:
+            query: Intrebarea sau cuvintele cheie cautate in regulamentul bancii.
+        """
+
+        results = policy_rag.search(query=query, top_k=2)
+        return {
+            "status" : "ok",
+            "policies" : results,
+        }
+    return [
+        get_transactions, 
+        check_merchant_reputation, 
+        freeze_card, 
+        create_dispute,
+        search_bank_policy,
+        ]  
